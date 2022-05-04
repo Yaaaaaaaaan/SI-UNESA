@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Cursos on-line</title>
+    
+    <style>
+    	thead { 
+              text-align: center;
+               font-size: 20px;
+              }
+    </style>
+    
+  </head>
+  <body>
+
+ 	<h1> Somos especializados em : </h1>
+    <dl>
+    	<dt>Linguagens Interpretadas </dt>
+          <dd>PHP</dd>
+          <dd>Angular</dd>
+          <dd>React</dd>
+          <dd>Vue</dd>
+          <dd>Python</dd>
+          <dd>Perl</dd>
+        
+        <dt>Linguagens Compiladas</dt>
+          <dd>NodeJS</dd>
+          <dd>Flutter</dd>
+          <dd>C#</dd>
+          <dd>C++</dd>
+          <dd>Java</dd>
+          <dd>Swift</dd>
+        
+    </dl>
+  
+  
+  <table border=1>
+  <caption> Valor dos cursos </caption>
+   
+    <tbody>
+    <tr>
+      	<td>Programação JAVA</td>
+      	<td> 250,00</td> 
+        <td> 15/09/2020</td> 
+     	 
+    </tr>
+        <tr>
+        <td> Programação Python</td> 
+        <td> 200,00</td> 
+        <td> Aguardando Alunos</td> 
+  	</tr>
+    <tr>
+        <td> Java</td> 
+      	<td>  180,00</td> 
+      	<td> Turma fechada</td> 
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+     <th colspan="2">Total</th>
+     <td >R$ 630,00 sdsds asdasdas asd asd</td>
+  </tfoot>
+   
+   <thead>
+    <tr> 
+       <td> Aulas</td> 
+       <td> Valores</td> 
+       <td> Data de início </td>
+    </tr>
+    </thead>
+    
+  </table>
+  <br>
+  <hr>
+  <br>
+   <form method="POST" action="exibe.php">
+      <p>Digite seu nome</p>
+         <input type="text" name="nome">
+         <p> Digite sua idade</p>	
+         <input type="number" name="idade">
+		<input type="submit"/>
+   </form>
+  </body>
+</html>

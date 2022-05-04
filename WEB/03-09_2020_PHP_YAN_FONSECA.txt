@@ -1,0 +1,7 @@
+<?php
+    $nome=htmlspecialchars($_POST['nome']);
+    $idade=htmlspecialchars($_POST['idade']);
+    
+    echo"Seu nome é: ".$nome.".";
+    echo"Sua idade é: ".$idade.".";
+?>

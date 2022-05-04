@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Fazenda- Reservas</title>
+  </head>
+  <body>
+    <img src="https://hotelfazendaflorestadolago.com.br/wp/wp-content/uploads/2019/09/hotel-fazenda-interior-de-sp-barato-FLORESTA-DO-LAGO-500x333.jpg"></img>
+    <h1>Hotel Fazenda- Reservas</h1>
+      
+      <dl>                
+        <a href="hotelfazenda.html">Início</a>
+        <a href="reservar.html">Reservar</a>
+      </dl>
+      <form method="POST" action="salvarreserva.php">
+      <p>Digite seu nome</p>
+         <input type="text" name="nome">
+         <p> Selecione seu sexo</p> 
+         <select name="sexo">
+          <option value="F">Feminino</option>
+          <option value="M">Masculino</option>
+         </select>
+         <p> Digite seu e-mail</p> 
+         <input type="email" name="email">
+         <p> Selecione a data de chegada prevista</p> 
+         <input type="date" name="datachegada">
+          <p> Digite o número de noites</p> 
+         <input type="number" min="0" name="nnoites">
+          <p> Digite o número de hóspedes</p> 
+         <input type="number" min="0" name="nhosp">
+    <input type="submit"/>
+   </form>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+print("Calculador funciona apenas com idades ate 19 anos!!")
+peso = float(input('Qual é o seu peso? (Kg)'))
+altura = float(input('Qual é sua altura? (m)'))
+idade = float(input('Qual é sua idade?'))
+sexo = input('Escolha teu sexo F - Feminino ou M - Masculino:')
+imc = peso / (altura ** 2)
+def sexM():
+    print("Sexo Masculino")
+    print('O IMC dessa pessoa é de {:.1f}'.format(imc))
+
+def sexF():
+
+    print("Sexo Feminino")
+    print('O IMC dessa pessoa é de {:.1f}'.format(imc))
+
+
+if __name__ == "__main__":
+    switch = {
+        "M": sexM,
+        "F": sexF
+    }
+
+    case = switch.get(sexo)
+    case()
+
+    
+
+if imc < 18.5:
+    print('ABAIXO DO PESO')
+elif 18.5 <= imc < 25:
+    print('PESO NORMAL')
+elif 25 <= imc < 30:
+    print('PRÉ-OBESIDADE')
+elif 30 <= imc < 35:
+    print('OBESIDADE GRAU 1')
+elif 35 <= imc < 40:
+    print('OBESIDADE GRAU 2')
+elif imc > 40:
+    print('OBESIDADE GRAU 3')
+
+if idade == 10 and sexo == ('F') and imc < 14.23:
+    print('BAIXO PESO')
+elif idade == 10 and sexo == ('F') and 14.23 <= imc <= 20.19:
+    print('ADEQUADO')
+elif idade == 10 and sexo == ('F') and imc >= 20.19:
+    print('SOBREPESO')
+elif idade == 11 and sexo == ('F') and imc < 14.60:
+    print('BAIXO PESO')
+elif idade == 11 and sexo == ('F') and 14.60 <= imc <= 21.18:
+    print('ADEQUADO')
+elif idade == 11 and sexo == ('F') and imc >= 21.18:
+    print('SOBREPESO')
+elif idade == 12 and sexo == ('F') and imc < 14.98:
+    print('BAIXO PESO')
+elif idade == 12 and sexo == ('F') and 14.98 <= imc <= 22.17:
+    print('ADEQUADO')
+elif idade == 12 and sexo == ('F') and imc >= 22.17:
+    print('SOBREPESO')
+elif idade == 13 and sexo == ('F') and imc < 15.36:
+    print('BAIXO PESO')
+elif idade == 13 and sexo == ('F') and 15.36 <= imc <= 23.08:
+    print('ADEQUADO')
+elif idade == 13 and sexo == ('F') and imc >= 23.08:
+    print('SOBREPESO')
+elif idade == 14 and sexo == ('F') and imc < 15.67:
+    print('BAIXO PESO')
+elif idade == 14 and sexo == ('F') and 15.67 <= imc <= 23.88:
+    print('ADEQUADO')
+elif idade == 14 and sexo == ('F') and imc >= 23.88:
+    print('SOBREPESO')
+elif idade == 15 and sexo == ('F') and imc < 16.01:
+    print('BAIXO PESO')
+elif idade == 15 and sexo == ('F') and 16.01 <= imc <= 24.29:
+    print('ADEQUADO')
+elif idade == 15 and sexo == ('F') and imc >= 24.29:
+    print('SOBREPESO')
+elif idade == 16 and sexo == ('F') and imc < 16.37:
+    print('BAIXO PESO')
+elif idade == 16 and sexo == ('F') and 16.37 <= imc <= 24.74:
+    print('ADEQUADO')
+elif idade == 16 and sexo == ('F') and imc >= 24.74:
+    print('SOBREPESO')
+elif idade == 17 and sexo == ('F') and imc < 16.59:
+    print('BAIXO PESO')
+elif idade == 17 and sexo == ('F') and 16.59 <= imc <= 25.23:
+    print('ADEQUADO')
+elif idade == 17 and sexo == ('F') and imc >= 25.23:
+    print('SOBREPESO')
+elif idade == 18 and sexo == ('F') and imc < 16.71:
+    print('BAIXO PESO')
+elif idade == 18 and sexo == ('F') and 16.71 <= imc <= 25.56:
+    print('ADEQUADO')
+elif idade == 18 and sexo == ('F') and imc >= 25.56:
+    print('SOBREPESO')
+elif idade == 19 and sexo == ('F') and imc < 16.87:
+    print('BAIXO PESO')
+elif idade == 19 and sexo == ('F') and 16.87 <= imc <= 25.85:
+    print('ADEQUADO')
+elif idade == 19 and sexo == ('F') and imc >= 25.85:
+    print('SOBREPESO')
+elif idade == 10 and sexo == ('M') and imc < 14.42:
+    print('BAIXO PESO')
+elif idade == 10 and sexo == ('M') and 14.42 <= imc <= 19.60:
+    print('ADEQUADO')
+elif idade == 10 and sexo == ('M') and imc >= 19.60:
+    print('SOBREPESO')
+elif idade == 11 and sexo == ('M') and imc < 14.83:
+    print('BAIXO PESO')
+elif idade == 11 and sexo == ('M') and 14.83 <= imc <= 20.35:
+    print('ADEQUADO')
+elif idade == 11 and sexo == ('M') and imc >= 20.35:
+    print('SOBREPESO')
+elif idade == 12 and sexo == ('M') and imc < 15.24:
+    print('BAIXO PESO')
+elif idade == 12 and sexo == ('M') and 15.24 <= imc <= 21.12:
+    print('ADEQUADO')
+elif idade == 12 and sexo == ('M') and imc >= 21.12:
+    print('SOBREPESO')
+elif idade == 13 and sexo == ('M') and imc < 15.73:
+    print('BAIXO PESO')
+elif idade == 13 and sexo == ('M') and 15.73 <= imc <= 21.93:
+    print('ADEQUADO')
+elif idade == 13 and sexo == ('M') and imc >= 21.93:
+    print('SOBREPESO')
+elif idade == 14 and sexo == ('M') and imc < 16.18:
+    print('BAIXO PESO')
+elif idade == 14 and sexo == ('M') and 16.18 <= imc <= 22.77:
+    print('ADEQUADO')
+elif idade == 14 and sexo == ('M') and imc >= 22.77:
+    print('SOBREPESO')
+elif idade == 15 and sexo == ('M') and imc < 16.59:
+    print('BAIXO PESO')
+elif idade == 15 and sexo == ('M') and 16.59 <= imc <= 23.63:
+    print('ADEQUADO')
+elif idade == 15 and sexo == ('M') and imc >= 23.63:
+    print('SOBREPESO')
+elif idade == 16 and sexo == ('M') and imc < 17.01:
+    print('BAIXO PESO')
+elif idade == 16 and sexo == ('M') and 17.01 <= imc <= 24.45:
+    print('ADEQUADO')
+elif idade == 16 and sexo == ('M') and imc >= 24.45:
+    print('SOBREPESO')
+elif idade == 17 and sexo == ('M') and imc < 17.31:
+    print('BAIXO PESO')
+elif idade == 17 and sexo == ('M') and 17.31 <= imc <= 25.28:
+    print('ADEQUADO')
+elif idade == 17 and sexo == ('M') and imc >= 25.28:
+    print('SOBREPESO')
+elif idade == 18 and sexo == ('M') and imc < 17.54:
+    print('BAIXO PESO')
+elif idade == 18 and sexo == ('M') and 17.54 <= imc <= 25.95:
+    print('ADEQUADO')
+elif idade == 18 and sexo == ('M') and imc >= 25.95:
+    print('SOBREPESO')
+elif idade == 19 and sexo == ('M') and imc < 17.80:
+    print('BAIXO PESO')
+elif idade == 19 and sexo == ('M') and 17.80 <= imc <= 26.36:
+    print('ADEQUADO')
+elif idade == 19 and sexo == ('M') and imc >= 26.36:
+    print('SOBREPESO')
+
